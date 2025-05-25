@@ -6,9 +6,13 @@ comparar si a es mayor, menor o igual a b */
 a = parseInt(prompt("Ingrese el primer número"));
 b = parseInt(prompt("Ingrese el segundo número"));
 
-if (a > b) {
+if (isNaN(a)) {
+    alert("El primer número no es válido");
+} else if (isNaN(b)) {
+    alert("El segundo número no es válido");
+} else if (a > b) {
     alert(`${a} es mayor que ${b}`);
-} else if (a < b ) {
+} else if (a < b) {
     alert(`${a} es menor que ${b}`);
 } else {
     alert(`${a} = ${b}`);
