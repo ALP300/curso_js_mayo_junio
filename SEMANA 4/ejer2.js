@@ -2,7 +2,7 @@
 Declara una variable número con un valor numérico y utiliza condicionales para
 determinar en qué rango se encuentra.
 */
-let numero = parseInt(prompt("Ingresa un número:"));
+let numero =  parseInt(prompt("Ingresa un número:"));
 
 if (numero >= 0 && numero <= 10) {
   console.log("El numero esta entre 0 y 10");
