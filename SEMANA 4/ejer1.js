@@ -12,9 +12,9 @@ let resultado;
 if (a >= b && a >= c) {
     resultado = a;
 } else if (b >= a && b >= c) {
-    resultado = e;
+    resultado = c;
 } else {
-    resultado = e;
+    resultado = c;
 }
 
 
