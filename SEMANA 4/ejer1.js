@@ -5,16 +5,16 @@
 
 let a = parseFloat(prompt("Ingresa el valor de 1:"));
 let b = parseFloat(prompt("Ingresa el valor de 2:"));
-let c = parseFloat(prompt("Ingresa el valor de 3:"));
+let e = parseFloat(prompt("Ingresa el valor de 3:"));
 let resultado;
 
 
 if (a >= b && a >= c) {
     resultado = a;
 } else if (b >= a && b >= c) {
-    resultado = b;
+    resultado = e;
 } else {
-    resultado = c;
+    resultado = e;
 }
 
 
